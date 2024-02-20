@@ -1905,3 +1905,31 @@ textarea.form-input::-webkit-resizer { display: none; }
   .projects{
     position: relative;
   }
+  .education{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+
+  }
+  .education ul {
+    width: 100%;
+    list-style-position: inside;
+    border-top: 4px #fec562 solid;
+    padding-left: 15px;
+  }
+  .education ul li {
+    margin: 10px;
+    padding: 3px;
+    background: var(--border-gradient-onyx);
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+
+  }
+  .education ul li div{
+    width: 100%;
+    background-color: #1e1e1f;
+    padding: 5px;
+    border-radius: 14px;
+  }
